@@ -260,7 +260,10 @@ Output the best-performing thresholds to:
 
 This allows identification of the optimal cutoff for domain detection, balancing sensitivity and specificity.
 
-
+To plot MCC: 
+```bash
+python scripts/pmcc.py performance_set1_thresholds.txt performance_set2_thresholds.txt
+```
 
 ## Output
 
