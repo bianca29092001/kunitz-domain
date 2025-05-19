@@ -262,7 +262,7 @@ This allows identification of the optimal cutoff for domain detection, balancing
 
 To plot MCC: 
 ```bash
-python scripts/pmcc.py performance_set1_thresholds.txt performance_set2_thresholds.txt
+python scripts/mcc.py performance_set1_thresholds.txt performance_set2_thresholds.txt
 ```
 
 ## Output
